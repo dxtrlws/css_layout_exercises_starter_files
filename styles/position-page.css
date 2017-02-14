@@ -1,18 +1,19 @@
-
 body {
     background: url("../images/outerspace_landscape.jpeg") no-repeat;
     background-size: cover;
-    
 }
+
 .logo {
     height: 50px;
     border-radius: 50%;
     vertical-align: middle;
 }
+
 nav ul {
     display: inline-block;
     list-style: none;
 }
+
 nav {
     background-color: grey;
     position: fixed;
@@ -22,18 +23,18 @@ nav {
     height: 60px;
     top: 0;
 }
+
 nav li {
-    
     display: inline-block;
 }
+
 nav li::after {
     content: " |";
 }
+
 nav a:hover {
     color: black;
 }
-
-
 
 .box {
     width: 600px;
@@ -48,13 +49,11 @@ nav a:hover {
 .dog {
     top: 200px;
     left: 450px;
-    position:absolute;
+    position: absolute;
 }
 
 .cat {
     position: absolute;
     left: -150px;
     top: -150px;
-
 }
-
